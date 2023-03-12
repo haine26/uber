@@ -14,7 +14,7 @@ body, html {
 
 a {
 	font-family: Lato;
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
 	font-family: Poppins-Regular;
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -168,10 +168,11 @@ iframe {
 }
 
 .contact100-form-title {
-      display: block;
+    display: block;
     width: 100%;
-    font-size: 39px;
-    color: #333333;
+    font-size: 40px;
+    color: #537f4a;
+    font-weight: 600;
     line-height: 1.2;
     text-align: left;
     padding-bottom: 10px;
@@ -193,7 +194,7 @@ iframe {
 }
 
 .label-input100 {
-  font-size: 18px;
+  font-size: 15px;
   color: #999999;
   line-height: 1.2;
   padding-left: 2px;
@@ -203,7 +204,7 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-size: 22px;
+  font-size: 18px;
   color: #555555;
   line-height: 1.2;
   padding: 0 2px;
@@ -234,10 +235,10 @@ iframe {
   transition: all 0.4s;
 
   background: #df254e;
-  background: -webkit-linear-gradient(45deg, #884747, #e0c04d);
-  background: -o-linear-gradient(45deg, #884747, #e0c04d);
-  background: -moz-linear-gradient(45deg, #884747, #e0c04d);
-  background: linear-gradient(45deg, #884747, #e0c04d);
+  background: -webkit-linear-gradient(45deg,#47884b, #8de04d);
+  background: -o-linear-gradient(45deg, #47884b, #8de04d);
+  background: -moz-linear-gradient(45deg, #47884b, #8de04d);
+  background: linear-gradient(45deg, #47884b, #8de04d);
 }
 
 
@@ -290,10 +291,10 @@ textarea.input100 {
   width: 300%;
   height: 100%;
   background: #df2351;
-  background: -webkit-linear-gradient(-135deg, #884747, #e0c04d, #884747, #e0c04d);
-  background: -o-linear-gradient(-135deg, #884747, #e0c04d, #884747, #e0c04d);
-  background: -moz-linear-gradient(-135deg, #884747, #e0c04d, #884747, #e0c04d);
-  background: linear-gradient(-135deg, #884747, #e0c04d, #884747, #e0c04d);
+  background: -webkit-linear-gradient(-135deg, #47884b, #8de04d, #47884b, #8de04d);
+  background: -o-linear-gradient(-135deg, #47884b, #8de04d, #47884b, #8de04d);
+  background: -moz-linear-gradient(-135deg, #47884b, #8de04d, #47884b, #8de04d);
+  background: linear-gradient(-135deg, #47884b, #8de04d, #47884b, #8de04d);
   top: 0;
   left: -100%;
 
@@ -314,7 +315,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 244px;
   height: 50px;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   line-height: 1.2;
 }
@@ -361,7 +362,7 @@ textarea.input100 {
   .contact100-more {
     position: absolute;
     background-color: transparent;
-    color: #39b54a;
+    color: #47884b;
     bottom: 0px;
     top: auto;
     left: 50%;
@@ -387,7 +388,7 @@ ul li label{
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 1.35em;
+  font-size: 1em;
   padding: 25px 10px 25px 65px;
   margin: 10px auto;
   height: 30px;
@@ -397,7 +398,7 @@ ul li label{
 }
 
 ul li:hover label{
-  color: #7e4240;
+  color: #47884b;
 }
 
 ul li .check{
@@ -415,7 +416,7 @@ ul li .check{
 }
 
 ul li:hover .check {
-  border: 5px solid #7e4240;
+  border: 5px solid #47884b;
 }
 
 ul li .check::before {
@@ -433,15 +434,15 @@ ul li .check::before {
 }
 
 input[type=radio]:checked ~ .check {
-  border: 5px solid #d5ae3a;
+  border: 5px solid #47884b;
 }
 
 input[type=radio]:checked ~ .check::before{
-  background: #d5ae3a;
+  background: #47884b;
 }
 
 input[type=radio]:checked ~ label{
-  color: #d5ae3a;
+  color:#47884b;
 }
 .type {
   float: left ;
@@ -450,7 +451,7 @@ input[type=radio]:checked ~ label{
   /*Don gia */
   .unitPrice {
     padding: 9px;
-    background: #e7cc5c;
+    background: #8de04d;
     border-radius: 10px;
   }
  /* End don gia   */

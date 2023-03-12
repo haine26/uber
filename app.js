@@ -38,7 +38,7 @@ function payment(Km, waitTime, arrayPrice, price) {
     } else if (Km > 1 && Km <= 20) {
         return arrayPrice[0] + (Km - 1) * arrayPrice[1] + waitTimePrice;
     } else if (Km > 20) {
-        return arrayPrice[0] + 19 * arrayPrice[1] * (Km - 20) * arrayPrice[2] + waitTimePrice;
+        return arrayPrice[0] + 19 * arrayPrice[1] + (Km - 20) * arrayPrice[2] + waitTimePrice;
     }
 
 }
